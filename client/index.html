@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ni oui ni mort</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <button class="new-game">Nouvelle partie</button>
+            <button class="join-game">Rejoindre partie</button>
+        </div>
+        <div class="lobby">
+            <p>En attente de joueurs</p>
+            <div class="users"></div>
+            <button>Commencer</button>
+        </div>
+        <div class="questions">
+            <div class="box">
+                <div class="box-question">
+                    <h3>Mort ou vivant ?</h3>
+                    <h1 class="star-name"></h1>
+                    <button class="valid is-alive" data-dead="false" type="button" name="button">&hearts; Vivant</button>
+                    <button class="error is-dead" data-dead="true" type="button" name="button">&dagger; Mort</button>
+                </div>
+                <div class="box-response">
+                    <h1 class="star-name"></h1>
+                    <p class="response"></p>
+                    <button class="next">Suivant</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="libs/socket.io-1.3.5.js"></script>
+    <script src="assets/scripts/bundle.min.js"></script>
+</body>
+</html>

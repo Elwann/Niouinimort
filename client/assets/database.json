@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Barack Obama",
+        "birth": "1963-10-16",
+        "death": null
+    },
+    {
+        "name": "David Bowie",
+        "birth": "1853-02-03",
+        "death": "2016-01-18"
+    },
+    {
+        "name": "Jacques Chirac",
+        "birth": "1948-08-13",
+        "death": null
+    },
+    {
+        "name": "Michel Gondrie",
+        "birth": "1930-12-02",
+        "death": "2004-03-18"
+    },
+    {
+        "name": "Martin Untersinger",
+        "birth": "1989-10-16",
+        "death": null
+    },
+    {
+        "name": "La décence",
+        "birth": "-035000-01-01",
+        "death": "2016-10-23"
+    }
+]
